@@ -1,0 +1,21 @@
+{
+  "openapi": "3.0.0",
+  "title": "Ignite SOLID example",
+  "description": "Project to manage users",
+  "version": "0.1",
+  "paths": {
+    "/users": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "description": "Returns a list of users",
+        "responses": {
+          "200": {
+            "description": "The list of all users"
+          }
+        }
+      }
+    }
+  }
+}
